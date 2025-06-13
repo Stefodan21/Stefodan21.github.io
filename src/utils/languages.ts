@@ -252,7 +252,22 @@ export const languages: Record<string, Language> = {
   name: "Kubernetes",
   iconName: "kube",
   },
-
+  jenkins: {
+  name: "Jenkins",
+  iconName: "jenkins",
+  },
+  postman: {
+  name: "Postman",
+  iconName: "postman",
+  },
+  selenium: {
+  name: "Selenium",
+  iconName: "selenium",
+  },
+  pytest: {
+  name: "Pytest",
+  iconName: "pytest",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {
