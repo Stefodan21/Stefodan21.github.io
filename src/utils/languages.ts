@@ -244,6 +244,15 @@ export const languages: Record<string, Language> = {
   name: "Linux",
   iconName: "linux-tux",
   },
+  Docker: {
+  name: "Docker",
+  iconName: "docker-svgrepo-com",
+  },
+  kubernetes: {
+  name: "Kubernetes",
+  iconName: "kube",
+  },
+
 };
 
 export const getLanguage = (lang: string): Language => {
