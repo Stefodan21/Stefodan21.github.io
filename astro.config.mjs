@@ -7,7 +7,8 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://neonmint.efeele.dev",
+  site: "https://Stefodan21.github.io",
+  base: "/Stefodan21.github.io/",
   integrations: [preact(), 
     icon({
     iconDir: "./src/icons"
