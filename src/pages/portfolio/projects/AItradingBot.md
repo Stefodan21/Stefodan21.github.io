@@ -2,7 +2,7 @@
 layout:  /src/layouts/ProjectLayout.astro
 title: 'AI python trading bot'
 pubDate: 2025-04-05
-description: 'An autonomous AI trading bot using PPO and custom neural networks to efficiently capture market trends. GPU-accelerated for fast decisions, and precise automated trading.'
+description: 'An autonomous AI trading bot that uses PPO to efficiently capture market trends.'
 languages: ["python", "gymnasium", "pandas", "numpy","pytorch", "seaborn"]
 image:
   url: "/images/projects/trade.webp"
@@ -82,10 +82,8 @@ This **state-of-the-art Forex trading bot** blends **reinforcement learning** wi
 
 ## 🌐 Github repo
 
-👉 [View live demo](https://github.com/EFEELE/NeonMint) 
+👉 [Repo](https://github.com/Stefodan21/aitradingbot) 
 
-## 🎯 Objective
 
-This project represents a significant advancement in automated trading systems, combining sophisticated machine learning algorithms. The modular architecture ensures maintainability and scalability, while the comprehensive monitoring system provides detailed insights into trading performance.
 
 

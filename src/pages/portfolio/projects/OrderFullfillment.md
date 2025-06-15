@@ -1,15 +1,13 @@
 ---
 layout:  /src/layouts/ProjectLayout.astro
-title: 'Order Fullfillment Project'
-pubDate: 2025-04-05
-description: 'Order Fulfillment & Tracking System is a scalable, automation-driven solution designed to streamline order processing, validation, invoice generation, and real-time tracking. It optimizes fulfillment workflows, shipping suggestions, and order status tracking for enhanced efficiency. 🚀'
-languages: ["terraform", "aws", "python", "Docker","jenkins","awsDynamodb","awsS3","awsLambda"]
+title: 'Order Fullfillment System'
+pubDate: 2025-06-01
+description: 'Order Fulfillment System uses a serverless automation solution that optimizes shipping workflows for scalability and efficiency. 🚀'
+languages: ["terraform", "aws", "python", "Docker","jenkins", "awsLambda"]
 image:
   url: "/images/projects/order.webp"
   alt: "/images/projects/order.png"
---- 
-
-# 🚀 Order Fulfillment & Tracking System  
+---  
 
 ## 🔍 Overview  
 This project is a streamlined, automated order tracking and fulfillment solution built with Python. It optimizes shipping workflows through a combination of cutting-edge technologies and serverless architecture, delivering enhanced scalability, efficiency, and rapid deployment.
@@ -49,20 +47,12 @@ This project is a streamlined, automated order tracking and fulfillment solution
 ---
 
 ## 📌 Conclusion  
-This Order Fulfillment & Tracking System sets a new standard for scalable, agile order processing by combining modern cloud computing practices with advanced automation. It’s designed to tackle real-world shipping challenges with precision and speed.
-
-📌 **Check out the full implementation:** 
+This Order Fulfillment & Tracking System sets a new standard for scalable, agile order processing by combining modern cloud computing practices with advanced automation. It’s designed to tackle real-world shipping challenges with precision and speed. 
 
 
 
 
 ## 🌐 Github Repo
 
-👉 [GitHub Repository](https://github.com/your-username/OrderFulfillment)
+👉 [GitHub Repository](https://github.com/Stefodan21/Order_fullfillment_Project)
 
-## 🎯 Objective
-
-The purpose of NeonMint is to combine style and functionality in a clean interface that enhances content without overwhelming the user. It's an exercise in design and development focused on visual detail and user experience.
-
-
-🚀 *Developed by EFEELE.*

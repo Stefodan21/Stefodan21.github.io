@@ -18,6 +18,10 @@ export const languages: Record<string, Language> = {
     name: "GitHub",
     iconName: "github",
   },
+  octocat: {
+    name: "GitHub Octocat",
+    iconName: "octocat",
+  },
   terraform: {
     name: "Terraform",
     iconName: "terraform",
