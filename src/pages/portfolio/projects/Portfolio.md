@@ -19,7 +19,7 @@ languages: [
   "php",
 ]
 image:
-  url: "/images/projects/neonmint.webp"
+  url: "Stefodan21.github.io/images/projects/neonmint.webp"
   alt: "Thumbnail of Astro arches."
 
 ---
