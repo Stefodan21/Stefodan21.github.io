@@ -5,7 +5,7 @@ pubDate: 2025-04-05
 description: 'An autonomous AI trading bot that uses PPO to efficiently capture market trends.'
 languages: ["python", "gymnasium", "pandas", "numpy","pytorch", "seaborn"]
 image:
-  url: "Stefodan21.github.io/images/projects/trade.webp"
+  url: "/images/projects/trade.webp"
   alt: "Thumbnail of Astro arches."
 --- 
  
