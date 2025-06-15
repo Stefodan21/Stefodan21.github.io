@@ -1,0 +1,33 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCE = [
+  {
+    date: "2025 - Present",
+    title: "Junior Systems Administrator",
+    company: "Eight Twelve Consulting",
+    description:
+      "As a Junior Systems Administrator at Eight Twelve Consulting, I provided Tier 2 technical support specializing in AWS troubleshooting and infrastructure management. My role involved debugging application errors, resolving connectivity issues, and analyzing system logs to identify root causes. I managed AWS services ensuring optimal performance and security. Common cases included S3 access issues, IAM misconfigurations, and AWS Lambda execution failures, where I conducted in-depth investigations to resolve system inefficiencies. I help optimized workflows and maintained system reliability in cloud environments.",
+  },
+
+  
+];
+---
+
+<div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
+  <ol class="relative mt-10">
+    {
+      EXPERIENCE.map((experience, index) => (
+        <li class="">
+          <article role="article" aria-labelledby={`experience-title-${index}`}>
+            <div
+              class="flex flex-col gap-2  text-zinc-00 dark:text-zinc-300 md:col-span-3"
+              aria-describedby={`experience-title-${index}`}
+            >
+              <ExperienceItem {...experience} />
+            </div>
+          </article>
+        </li>
+      ))
+    }
+  </ol>
+</div>
