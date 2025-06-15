@@ -8,7 +8,8 @@ import icon from "astro-icon";
 // https://astro.build/config
 export default defineConfig({
   site: "https://Stefodan21.github.io",
-  base: "/Stefodan21.github.io",
+  base: "/",
+  
   integrations: [preact(), 
     icon({
     iconDir: "./src/icons"
