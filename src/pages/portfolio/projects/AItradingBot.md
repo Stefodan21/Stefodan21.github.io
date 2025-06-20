@@ -8,81 +8,89 @@ image:
   url: "/images/projects/trade.webp"
   alt: "Thumbnail of Astro arches."
 --- 
- 
+# 🔍 Overview
 
-## 🔍 Overview  
-**ForexBot** is a cutting-edge automated trading system that leverages **machine learning** and **risk management** to execute professional-grade trades with **high efficiency and reliability**. Powered by **Stable Baselines3** and developed in **Python**, this system offers a **scalable architecture**, real-time performance tracking, and intelligent trading strategies.  
-
----
-
-## 🧩 Core Features  
-
-### 📈 Advanced Reinforcement Learning  
-- **PPO (Proximal Policy Optimization)** for optimized trade execution  
-- **Custom neural network** with layer normalization  
-- **Automated hyperparameter tuning** for performance improvements  
-
-### 🛡️ Risk Management  
-- Fixed position sizing **(0.15 lots)**  
-- Weekly trade cap enforcement  
-- Automated trade monitoring & error handling  
-
-### 📊 Market Analysis & Performance Tracking  
-- **Real-time data processing** with technical indicators *(RSI, MACD, EMA, ATR)*  
-- **Economic calendar integration** & pattern recognition for event-driven trading decisions  
-- **Rolling 10-year data window** for enhanced historical trend analysis & strategy refinement  
-- **Live performance metrics**, including **profit factor**, **win rate tracking**, and **market regime detection**  
-
+**ForexBot** is a fully autonomous, high-performance Forex trading system powered by deep reinforcement learning. Developed in Python 3.10, it leverages **Proximal Policy Optimization (PPO)** to deliver intelligent, real-time trade execution—completely free from traditional indicators or economic calendars. Designed with scalability, fault tolerance, and performance monitoring at its core, ForexBot operates with zero manual intervention.
 
 ---
 
-## 💡 Technical Architecture  
+# 🧩 Core Features
 
-### ⚙️ Core Framework  
-- **Python 3.7+** with machine learning libraries *(TensorFlow, PyTorch, Gymnasium)*  
-- **Data processing** using *pandas, numpy, Alpha Vantage API*  
+## 📈 Reinforcement Learning
 
-### 📡 Trading Integration  
-- **MetaTrader 5** execution engine  
-- **Automated order & position tracking**  
-- **Risk management rules implementation**  
+- **Stable Baselines3 PPO**: Proven RL algorithm ensures consistent trade performance  
+- **Custom Neural Architecture**: Learns directly from raw market data—no handcrafted features  
+- **Dynamic Position Sizing**: Adapts to evolving market conditions to maximize returns  
+- **Auto Hyperparameter Tuning**: Continuously optimizes strategy under live conditions  
 
-### 🚀 Performance Optimization  
-- **GPU acceleration** *(DirectML, OpenCL, torch-directml)*  
-- **Memory-efficient data structures** for faster computations  
+## 🛡️ Risk Management
 
-### 📊 Visualization & Monitoring  
-- **Performance dashboards & trade analytics**  
-- **TensorBoard & Weights & Biases** for AI training insights  
+- **Configurable Trade Cap**: Enforces up to *6 trades/week* (user-defined) for disciplined exposure  
+- **Robust Monitoring & Error Recovery**: Automatically handles exceptions and edge cases  
+- **Fully Automated Lifecycle**: From order placement to position closure—ForexBot does it all  
 
----
+## 📊 Market Data & Analytics
 
-## 📈 Performance Metrics  
-
-- **Efficiency Boost:** 10-20% improvement over manual trading  
-- **Risk Management:** Fixed position sizing **(0.15 lots), 6 weekly trades**  
-- **System Reliability:** 99.9% uptime with automated error recovery  
-- **Processing Speed:** GPU-accelerated real-time data analysis  
+- **Extended Historical Data**: Bypasses Dukascopy's 3-year limit via auto-concatenation  
+- **Live KPIs**: Profit factor, win rate, and rolling metrics—tracked episode by episode  
+- **No Lagging Indicators**: Pure price-action strategy ensures reactive, unbiased decision-making  
 
 ---
 
-## 🔮 Future Enhancements  
+# 💡 Technical Stack
 
-🚀 **Enhanced Market Analysis:** Pattern recognition & market regime detection  
-⚡ **Advanced Risk Management:** Dynamic risk adjustment & portfolio optimization  
-🛠️ **System Optimization:** Improved GPU utilization & faster data processing  
+## ⚙️ Core Framework
+
+- Python 3.10 + PyTorch + Gymnasium  
+- Streamlined with **TensorFlow removed** for reduced overhead  
+- Efficient data handling via **pandas** and **NumPy**
+
+## 📡 Trading Integration
+
+- **MetaTrader 5 Bridge**: Seamless execution and portfolio management  
+- **Full Audit Trail**: All trades logged with reproducibility in mind  
+- **Tunable Parameters**: User-defined risk and sizing strategies via YAML config or CLI  
+
+## 🚀 Performance Optimization
+
+- **GPU Support**: Accelerated training with DirectML, OpenCL, and torch-directml  
+- **Memory-Conscious Structures**: Optimized for both backtesting and live environments  
+
+## 📊 Visualization & Monitoring
+
+- **Interactive Dashboards**: Trade insights at a glance  
+- **Weights & Biases Integration**: Intuitive experiment logging and comparison  
 
 ---
 
-This **state-of-the-art Forex trading bot** blends **reinforcement learning** with **robust risk management**, providing a **scalable, automated trading system** with advanced monitoring tools.  
+# 📈 Performance Highlights
 
-📌 **Interested in the full implementation?** Let’s dive deeper! 🔥🚀  
+- **Efficiency Gains**: Automation and dynamic sizing outperform manual strategies  
+- **Stability**: 99.9% uptime, with resilient exception handling  
+- **Low Latency**: GPU-powered, near-real-time inference and execution  
 
+---
+
+# 🔮 Roadmap
+
+## 🚀 Smarter Market Intelligence
+
+- Regime detection and pattern mining  
+- Context-aware adjustments and multi-agent learning  
+
+## 🛠️ System Enhancements
+
+- Faster data pipelines  
+- Enhanced GPU throughput and model compression  
+
+---
+
+> Ready to explore the codebase? Dive into the full repo and see the engine under the hood.
 
 
 ## 🌐 Github repo
 
-👉 [Repo](https://github.com/Stefodan21/aitradingbot) 
+👉 [Repo](https://github.com/Stefodan21/Forex-trading-bot)
 
 
 
