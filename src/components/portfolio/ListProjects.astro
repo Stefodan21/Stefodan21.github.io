@@ -21,7 +21,7 @@ allPosts.sort(
     {
       allPosts.map((post) => (
         <Project
-          url={post.url}
+          repo={post.frontmatter.repo} 
           title={post.frontmatter.title}
           description={post.frontmatter.description}
           date={post.frontmatter.pubDate}
