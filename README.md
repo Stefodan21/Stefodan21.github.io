@@ -22,16 +22,6 @@ A modular, cloud-native portfolio built with **React** and **TypeScript**, showc
 - **JavaScript** (1.9%)
 
 
-## 🏗️ Tech Stack
-
-| Technology      | Purpose                            |
-|-----------------|-------------------------------------|
-| React + TypeScript | Frontend architecture and UI  
-| GitHub Pages    | Deployment and hosting  
-| Render          | External service hosting for live demos  
-| Terraform       | Infrastructure as Code for deployment repeatability  
-| GitHub Actions + Pytest | CI/CD testing for backend services
-
 
 ## 🔗 Live Site
 
@@ -41,7 +31,7 @@ A modular, cloud-native portfolio built with **React** and **TypeScript**, showc
 
 ## 📬 Get in Touch
 
-Feel free to connect on [LinkedIn](https://linkedin.com/in/stefaandavis) or reach out for collaborations, internships, or feedback!
+Feel free to connect on LinkedIn or reach out for collaborations, internships, or feedback!
 
 ---
 
