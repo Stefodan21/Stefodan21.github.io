@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.PUBLIC_GA_MEASUREMENT_ID }}
-      MS_CLARITY_ID: ${{ secrets.PUBLIC_MS_CLARITY_ID }}
+      PUBLIC_MS_CLARITY_ID: ${{ secrets.PUBLIC_MS_CLARITY_ID }}
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
