@@ -54,6 +54,28 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SEO.sitename} />
     <meta property="og:locale" content={SEO.locale} />
+    <!-- Microsoft Clarity tracking code: monitors user interactions for analytics -->
+    <script type="text/javascript">
+      (function (window, document, clarity, scriptTag, clarityId) {
+        window[clarity] = window[clarity] || function () {
+          (window[clarity].q = window[clarity].q || []).push(arguments);
+        };
+        var script = document.createElement(scriptTag);
+        script.async = true;
+        script.src = "https://www.clarity.ms/tag/" + clarityId;
+        var firstScript = document.getElementsByTagName(scriptTag)[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+      })(window, document, "clarity", "script", '${Astro.env.MS_CLARITY_ID}');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${Astro.env.PUBLIC_GA_MEASUREMENT_ID}`}></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', `${Astro.env.PUBLIC_GA_MEASUREMENT_ID}`);
+    </script>
     
   
     <meta name="theme-color" content="#0E0E11"/>
