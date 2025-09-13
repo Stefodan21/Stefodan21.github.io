@@ -21,6 +21,10 @@ export default defineConfig({
   }),],
 
   vite: {
+    define: {
+      'Astro.env.PUBLIC_GA_MEASUREMENT_ID': JSON.stringify(process.env.PUBLIC_GA_MEASUREMENT_ID),
+      'Astro.env.PUBLIC_MS_CLARITY_ID': JSON.stringify(process.env.PUBLIC_MS_CLARITY_ID),
+    },
     plugins: [tailwindcss()],
   },
   markdown: {

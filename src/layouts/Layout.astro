@@ -65,7 +65,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
         script.src = "https://www.clarity.ms/tag/" + clarityId;
         var firstScript = document.getElementsByTagName(scriptTag)[0];
         firstScript.parentNode.insertBefore(script, firstScript);
-      })(window, document, "clarity", "script", '${Astro.env.MS_CLARITY_ID}');
+      })(window, document, "clarity", "script", '${Astro.env.PUBLIC_MS_CLARITY_ID}');
     </script>
     <!-- Google tag (gtag.js) -->
     <script async src={`https://www.googletagmanager.com/gtag/js?id=${Astro.env.PUBLIC_GA_MEASUREMENT_ID}`}></script>
