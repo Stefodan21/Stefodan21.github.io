@@ -54,9 +54,12 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SEO.sitename} />
     <meta property="og:locale" content={SEO.locale} />
+    ---
+    const clarityId = import.meta.env.PUBLIC_MS_CLARITY_ID;
+    ---
     <!-- Microsoft Clarity tracking code: monitors user interactions for analytics -->
     <script type="text/javascript">
-      const clarityId = import.meta.env.PUBLIC_MS_CLARITY_ID;
+      const clarityId = '{clarityId}';
       (function (window, document, clarity, scriptTag, clarityId) {
         window[clarity] = window[clarity] || function () {
           (window[clarity].q = window[clarity].q || []).push(arguments);
