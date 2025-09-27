@@ -10,6 +10,7 @@ const jsonDataCollection = defineCollection({
     cloudLink: z.string(),
     aiLink: z.string(),
     webLink: z.string(),
+
     profileTitle: z.string(),
     profileName: z.string(),
     github: z.string().url(),
