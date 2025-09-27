@@ -1,9 +1,7 @@
 {
   "profileImage": "/images/headshot.webp",
   "profileAlt": "Photo of Stefaan Davis",
-  "cloudLink": "/cloud-resume.pdf",
-  "aiLink": "/ai-resume.pdf",
-  "webLink": "/web-resume.pdf",
+  "cloudLink": "/cloudresume.pdf",
   "profileTitle": "Hello, im a student",
   "profileName": "Stefaan Davis",
   "github": "https://github.com/Stefodan21",
