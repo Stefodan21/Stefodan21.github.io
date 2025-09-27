@@ -76,24 +76,17 @@ if (!staticData) {
             text="View My Resume"
             iconName="cloud"
             variant="dark"
-
           /> 
           <Button
-            link="/airesume.pdf"
+            link={staticData.data.aiLink}
             text="AI/ML Resume"
             iconName="ai"
             variant="dark"
           />
           <Button
-            link={staticData.data.aiLink}
-            text="View My Resume"
-            iconName="cloud"
-            variant="dark"
-          />
-          <Button
             link={staticData.data.webLink}
-            text="View My Resume"
-            iconName="cloud"
+            text="Web Development Resume"
+            iconName="web"
             variant="dark"
           />
         </div>
