@@ -7,7 +7,9 @@ const jsonDataCollection = defineCollection({
     //Define JSON-file structure
     profileImage: z.string(),
     profileAlt: z.string(),
-    profileLink: z.string(),
+    cloudLink: z.string(),
+    aiLink: z.string(),
+    webLink: z.string(),
     profileTitle: z.string(),
     profileName: z.string(),
     github: z.string().url(),
