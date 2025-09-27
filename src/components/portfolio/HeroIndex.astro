@@ -72,23 +72,12 @@ if (!staticData) {
         </p>
         <div class="flex gap-4 max-sm:flex-col max-sm:items-center">
           <Button
-            link="/cloudresume.pdf"
-            text="Cloud Resume"
-            iconName="cloud"
-            variant="dark"
-          /> 
-          <Button
-            link="/airesume.pdf"
-            text="AI/ML Resume"
-            iconName="ai"
+            link={staticData.data.cloudLink}
+            text="View My Resume"
+            iconName="person"
             variant="dark"
           />
-          <Button
-            link="/webresume.pdf"
-            text="Web Development Resume"
-            iconName="web"
-            variant="dark"
-          />
+
         </div>
       </div>
     </div>
