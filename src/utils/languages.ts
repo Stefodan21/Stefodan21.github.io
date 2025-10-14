@@ -131,7 +131,11 @@ export const languages: Record<string, Language> = {
     name: "HTML 5",
     iconName: "html",
   },
-  javascript: {
+  React: {
+    name: "React",
+    iconName: "react-logo",
+  },
+  JavaScript: {
     name: "JavaScript",
     iconName: "javascript",
   },
@@ -272,6 +276,47 @@ export const languages: Record<string, Language> = {
   name: "Pytest",
   iconName: "pytest",
   },
+  nginx: {
+  name: "Nginx",
+  iconName: "nginx",
+  },
+  nextjs: {
+  name: "Next.js",
+  iconName: "nextjs",
+  },
+  redis: {
+  name: "Redis",
+  iconName: "redis",
+  },
+  graphql: {
+  name: "GraphQL",
+  iconName: "graphql",
+  },
+  express: {
+  name: "Express.js",
+  iconName: "express",
+  },
+  postgresql: {
+  name: "PostgreSQL",
+  iconName: "postgresql",
+  },
+  flask: {
+  name: "Flask",
+  iconName: "flask",
+  },
+  apache: {
+  name: "Apache",
+  iconName: "apache",
+  },
+  kafka: {
+  name: "Kafka",
+  iconName: "kafka-icon",
+  },
+  spring: {
+  name: "Spring",
+  iconName: "spring",
+  },
+
 };
 
 export const getLanguage = (lang: string): Language => {
