@@ -296,6 +296,10 @@ export const languages: Record<string, Language> = {
   name: "Express.js",
   iconName: "express",
   },
+  heroku: {
+  name: "Heroku",
+  iconName: "heroku-icon",
+  },
   postgresql: {
   name: "PostgreSQL",
   iconName: "postgresql",
