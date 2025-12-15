@@ -26,7 +26,7 @@ My journey has been shaped by **resilience**, **setbacks**, and the determinatio
 
 I was born and raised in **Trelawny, Jamaica**, in the rural parts beside sugar cane plantations.  
 
-![Placeholder for Trelawny Jamaica image](./public/images/falmouth.jpg)  
+![Falmouth Trelawny Jamaica image](/images/falmouth.jpg) 
 
 Growing up in a *single-parent household*, life was not easy. I often woke up at *five in the morning* to travel into the city for school, a place very different from what I was used to.  
 
@@ -83,7 +83,7 @@ For me, *winning* is both personal and shared:
 
 Outside of engineering, I’m passionate about **soccer**, **field hockey**, **fitness**, and **running** ,  even if my competitive career ended earlier than planned. Sports remain a core part of my identity, teaching me discipline and resilience.  
 
-![Placeholder for sports/fitness image](./public/images/fh.jpg)  
+![FIU field Hocket Tournament](/images/fh.jpg)  
 
 ---
 
@@ -97,7 +97,7 @@ Beyond personal passions, I care deeply about **giving back**:
 - 🏠 Helping the homeless  
 - 🌍 Supporting relief efforts in my country after it was devastated by a hurricane  
 
-![Placeholder for volunteering/charity image](./public/images/hurricane.webp)  
+![Hurricane Melissa image](/images/hurricane.webp)  
 
 ---
 
