@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio — engineer, builder, problem solver." />
+  <title>Stefaan Davis | Cloud Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="logo"><span class="accent">&gt;_</span> Stefaan Davis</a>
+    <nav>
+      <a href="#about">about</a>
+      <a href="#stack">stack</a>
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#certs">certs</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="mono small accent">// Hello, world</p>
+        <h1>
+          I'm <span class="accent">Stefaan Davis</span>.<br />
+          I build <span id="typed"></span><span class="cursor">_</span>
+        </h1>
+        <p class="lead">
+          Engineer designing reliable systems, cloud platforms, and tools that deliver impact.
+        </p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="assets/Stefaanresume.pdf" class="btn ghost" target="_blank" rel="noopener">Resume ↗</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <div class="frame">
+          <img src="assets/images/headshot.webp" alt="Headshot of Your Name" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'YOUR HEADSHOT'}))"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2><span class="accent">#</span> about</h2>
+      <div class="about-grid">
+        <p>
+          I'm a Cloud Engineer passionate about building resilient systems and automating workflows.
+          My focus is backend and cloud technologies, with hands‑on experience in AWS, Docker, and Kubernetes.
+          Outside of engineering, I enjoy exploring new tech and sharing knowledge with others.
+        </p>
+        <ul class="meta mono">
+          <li><span class="accent">location:</span> Miami, United States</li>
+          <li><span class="accent">role:</span> Software Engineer</li>
+          <li><span class="accent">status:</span> open to opportunities</li>
+          <li><span class="accent">focus:</span> backend · cloud · ML</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="stack" class="section">
+      <h2><span class="accent">#</span> tech stack</h2>
+      <div class="stack-groups">
+        <div class="stack-group">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>Python</li><li>TypeScript</li><li>JavaScript</li>
+            <li>Powershell</li><li>SQL</li><li>Bash</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Frameworks</h3>
+          <ul class="chips">
+            <li>Flask</li><li>Angular</li><li>Node.js</li>
+            <li>FastAPI</li><li>Django</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Cloud / Infra</h3>
+          <ul class="chips">
+              <li>AWS</li>
+              <li>Azure</li><li>Google Cloud</li>
+              <li>Docker</li><li>Kubernetes</li>
+              <li>Terraform</li><li>GitHub Actions</li>
+              <li>Linux (Debian, RHEL)</li>
+              <li>Windows Server (Active Directory)</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Tools</h3>
+          <ul class="chips">
+                <li>Git</li><li>Copilot</li>
+                <li>GitHub Actions</li><li>Terraform</li>
+                <li>Linux</li><li>Visual Studio Code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2><span class="accent">#</span> experience</h2>
+      <ol class="timeline">
+
+        <!-- Company with multiple roles -->
+        <li class="company">
+          <div class="company-head">
+            <div class="logo-wrap">
+              <img src="assets/images/consulting1.png" alt="Company One logo"
+                   onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'logo-fallback',textContent:'C1'}))" />
+            </div>
+            <div>
+              <h3 class="company-name">Eight Twelve Consluting LLC</h3>
+              <p class="mono small muted">2026 — present · 1 yr</p>
+            </div>
+          </div>
+          <ol class="roles">
+            <li>
+              <div class="role-head">
+                <h4>Senior Software Engineer</h4>
+                <span class="mono small muted">2024 — present</span>
+              </div>
+              <ul class="impact">
+                <li>Developed and maintained applications using Node.js, Django, and FastAPI.</li>
+                <li>Delivered clean, efficient, and scalable code to support business requirements.</li>
+              </ul>
+            </li>
+            <li>
+              <div class="role-head">
+                <h4>Software Engineer</h4>
+                <span class="mono small muted">2025 — present</span>
+              </div>
+              <ul class="impact">
+                <li>Developed internal tooling to streamline workflows and improve automation across cloud environments.</li>
+                <li>Built and maintained infrastructure solutions leveraging AWS, Azure, and Kubernetes, integrating Infrastructure as Code with Terraform and Ansible.</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+
+        <!-- Single-role company -->
+        <li class="company">
+          <div class="company-head">
+            <div class="logo-wrap">
+              <img src="assets/images/hsai.png" alt="Company Two logo"
+                   onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'logo-fallback',textContent:'C2'}))" />
+            </div>
+            <div>
+              <h3 class="company-name">Handshake AI (Contract)</h3>
+              <p class="mono small muted">OCT 2025 — MAR 2026 · 6 mths</p>
+            </div>
+          </div>
+          <ol class="roles">
+            <li>
+              <div class="role-head">
+                <h4>Ai Trainer Fellow (contract)</h4>
+                <span class="mono small muted"> OCT 2025 — FEB 2026 </span>
+              </div>
+              <ul class="impact">
+                <li>Developed and tested structured prompts for generative AI models. </li>
+                <li>Conducted model evaluations, analyzed edge cases, and provided feedback to enhance performance in reasoning, coding, and dialogue tasks.</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2><span class="accent">#</span> Projects</h2>
+      <div class="projects">
+        <article class="card">
+          <header>
+            <h3>Serverless Logistics Automation </h3>
+            <span class="mono small accent">2025</span>
+          </header>
+          <p>Serverless automation with AWS Lambda, Terraform, and Docker to streamline shipping workflows at scale.</p>
+          <ul class="tags mono small">
+            <li>Python</li><li>Flask</li><li>AWS Lambda</li><li>AWS Step Functions</li><li>AWS DynamoDB</li><li>AWS S3</li><li>Terraform</li><li>Docker</li><li>GitHub Actions</li><li>Pytest</li>
+
+          </ul>
+          <footer>
+            <a href="https://github.com/Stefodan21/Order_fulfillment_Project" target="_blank" rel="noopener">code ↗</a>
+            <a href="https://order-fullfillment-project.onrender.com/" target="_blank" rel="noopener">live ↗</a>
+          </footer>
+        </article>
+
+        <article class="card">
+          <header>
+            <h3>Reinforcement Learning Trading Agent</h3>
+            <span class="mono small accent">2025</span>
+          </header>
+          <p>AI driven trading bot using reinforcement learning (PPO) to automate forex strategies with cloud deployment.</p>
+          <ul class="tags mono small">
+            <li>Python</li><li>Stable-Baselines3</li><li>Reinforcement Learning (PPO)</li><li>DirectML</li><li>OpenCL</li><li>AMD GPU Acceleration</li><li>NumPy</li><li>Pytorch</li>
+
+          </ul>
+          <footer>
+            <a href="https://github.com/Stefodan21/Forex-trading-bot" target="_blank" rel="noopener">code ↗</a>
+
+          </footer>
+        </article>
+
+        <article class="card">
+          <header>
+            <h3>Candidate Sourcing Engine</h3>
+            <span class="mono small accent">2026</span>
+          </header>
+          <p>Polyglot backend service for recruiter lead generation, built with TypeScript, Rust, Python, Docker, PostgreSQL, and AWS.</p>
+          <ul class="tags mono small">
+            <li>TypeScript</li><li>Rust</li><li>Python</li><li>Docker</li><li>PostgreSQL</li><li>GitHub Actions</li><li>AWS</li><li>Nodejs</li>
+
+          </ul>
+          <footer>
+            <a href="https://github.com/Stefodan21/recruiterleadgen" target="_blank" rel="noopener">code ↗</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section">
+      <h2><span class="accent">#</span> certifications</h2>
+
+      <!-- Credly badges (live embeds) -->
+      <div class="badges">
+        <!--
+          Replace data-share-badge-id with the ID from your Credly badge.
+          Find it in: Credly badge page → Share → Embed.
+        -->
+        <div data-iframe-width="150" data-iframe-height="270"
+             data-share-badge-id="6b41f5bf-a64b-4872-b083-b5d3a8c45372"
+             data-share-badge-host="https://www.credly.com"></div>
+        <div data-iframe-width="150" data-iframe-height="270"
+             data-share-badge-id="98179a79-0e1d-4e7a-ab1f-3f9bab0b7712"
+             data-share-badge-host="https://www.credly.com"></div>
+        <div data-iframe-width="150" data-iframe-height="270"
+             data-share-badge-id="ce7ced36-be51-4553-a745-1a38f268b3b4"
+             data-share-badge-host="https://www.credly.com"></div>
+      </div>
+
+      <ul class="certs">
+        <li>
+          <div>
+            <h3>AWS Solutions Architect - Associate (SAA-C03) </h3>
+            <p class="mono small">AWS · 2026</p>
+          </div>
+          <a href="https://www.credly.com/badges/6b41f5bf-a64b-4872-b083-b5d3a8c45372/public_url" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
+        </li>
+        <li>
+          <div>
+            <h3>Microsoft Certified: Azure Administrator Associate (AZ-104) (In progress)</h3>
+            <p class="mono small">Microsoft · 2026</p>
+          </div>
+          <a href="#" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
+        </li>
+        <li>
+          <div>
+            <h3>HashiCorp Certified: Terraform Associate (004) (In progress)</h3>
+            <p class="mono small">HasiCorp · 2026</p>
+          </div>
+          <a href="#" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2><span class="accent">#</span> contact</h2>
+      <p class="lead">Open to roles, collaborations, and interesting problems.</p>
+      <div class="links">
+        <a href="mailto:stefaandavis21@outlook.com" class="btn primary">stefaandavis21@outlook.com</a>
+        <a href="https://github.com/Stefodan21" target="_blank" rel="noopener" class="btn ghost">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/stefaan-davis-4b6a32186/" target="_blank" rel="noopener" class="btn ghost">LinkedIn ↗</a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot mono small">
+    <span>© <span id="year"></span> Stefaan Davis</span>
+    <span>built from scratch · <span class="accent">v3.0</span></span>
+  </footer>
+
+  <script src="script.js"></script>
+  <script async type="text/javascript" src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      <!-- Microsoft Clarity tracking code: monitors user interactions for analytics -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "ta4h1bkr9c");
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=gaId`}></script>
+    <script>
+    const gaId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', gaId);
+    </script>
+</body>
+</html>
