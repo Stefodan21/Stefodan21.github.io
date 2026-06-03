@@ -1,12 +1,10 @@
 // Typing effect for hero
 const phrases = [
-  'reliable systems.',
+  'Reliable.',
   'clean APIs.',
-  'data pipelines.',
-  'scalable platforms.',
-  'CI/CD pipelines.',
-  'secure architectures.',
-  'things that ship.',
+  'Pipelines.',
+  'Scalable.',
+  'Secure.'
 ];
 
 const el = document.getElementById('typed');
