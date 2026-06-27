@@ -6,6 +6,7 @@
   --border: #1f1f1f;
   --accent: #00ffa3; /* bright neon contrast */
   --accent-dim: rgba(0, 255, 163, 0.12);
+  --footer-blue: #1e90ff; /* link color for project footers */
   --maxw: 1080px;
   --radius: 6px;
   --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -351,7 +352,8 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 2rem; }
 .tags li { color: var(--accent); }
 .tags li:not(:last-child)::after { content: ' ·'; color: var(--muted); margin-left: 0.4rem; }
 .card footer { display: flex; gap: 1rem; font-family: var(--mono); font-size: 0.85rem; }
-.card footer a { color: var(--accent); }
+.card footer a { color: var(--footer-blue); }
+.card footer a:hover { color: var(--accent); }
 
 /* CERTS */
 .badges iframe {
