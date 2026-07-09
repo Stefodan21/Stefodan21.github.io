@@ -18,6 +18,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://stefodan21.github.io/">
   <meta property="og:image" content="https://stefodan21.github.io/assets/images/headshot.webp">
+  <meta name="robots" content="index, follow" /> <!-- Tells search engines to index/follow -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@stefaan">
   <meta name="twitter:title" content="Stefaan Davis | Software Engineer">
@@ -83,56 +84,18 @@
       <h2><span class="accent">#</span> about</h2>
       <div class="about-grid">
         <p>
-          I'm a Software Engineer passionate about building resilient systems and automating workflows.
-          My focus is backend and cloud technologies, with hands‑on experience in AWS, Docker, and Kubernetes.
-          Outside of engineering, I enjoy exploring new tech and sharing knowledge with others.
+          <strong class="accent" style="font-weight:bold;">Software Engineer</strong> and 
+          <strong class="accent" style="font-weight:bold;">AI Engineer</strong> focused on backend and cloud technologies.<br>
+          <strong class="accent" style="font-weight:bold;">Microsoft Student Ambassador</strong> for Florida International University.<br>
+          <strong class="accent" style="font-weight:bold;">National Society of Black Engineers (NSBE)</strong> and 
+          <strong class="accent" style="font-weight:bold;">Open Source Contributor</strong>.
         </p>
         <ul class="meta mono">
           <li><span class="accent">location:</span> Miami, FL, United States</li>
           <li><span class="accent">role:</span> Software Engineer</li>
           <li><span class="accent">status:</span> open to opportunities</li>
-          <li><span class="accent">focus:</span> backend · cloud · ML</li>
+          <li><span class="accent">Hobbies:</span> Field Hockey • Running • Soccer • Powerlifting</li>
         </ul>
-      </div>
-    </section>
-
-    <!-- TECH STACK -->
-    <section id="stack" class="section">
-      <h2><span class="accent">#</span> tech stack</h2>
-      <div class="stack-groups">
-        <div class="stack-group">
-          <h3>Languages</h3>
-          <ul class="chips">
-            <li>Python</li><li>TypeScript</li><li>JavaScript</li>
-            <li>Powershell</li><li>SQL</li><li>Bash</li>
-          </ul>
-        </div>
-        <div class="stack-group">
-          <h3>Frameworks</h3>
-          <ul class="chips">
-            <li>Flask</li><li>Angular</li><li>Node.js</li>
-            <li>FastAPI</li><li>Django</li>
-          </ul>
-        </div>
-        <div class="stack-group">
-          <h3>Cloud / Infra</h3>
-          <ul class="chips">
-              <li>AWS</li>
-              <li>Azure</li><li>Google Cloud</li>
-              <li>Docker</li><li>Kubernetes</li>
-              <li>Terraform</li><li>GitHub Actions</li>
-              <li>Linux (Debian, RHEL)</li>
-              <li>Windows Server (Active Directory)</li>
-          </ul>
-        </div>
-        <div class="stack-group">
-          <h3>Tools</h3>
-          <ul class="chips">
-                <li>Git</li><li>Copilot</li>
-                <li>GitHub Actions</li><li>Terraform</li>
-                <li>Linux</li><li>Visual Studio Code</li>
-          </ul>
-        </div>
       </div>
     </section>
 
@@ -150,7 +113,7 @@
             </div>
             <div>
               <h3 class="company-name">Eight Twelve Consluting LLC</h3>
-              <p class="mono small muted">2026 — present · 1 yr</p>
+              <p class="mono small muted">2026 — present </p>
             </div>
           </div>
           <ol class="roles">
@@ -174,12 +137,39 @@
         <li class="company">
           <div class="company-head">
             <div class="logo-wrap">
+              <img src="assets/images/msft.png" alt="Microsoft logo"
+                   onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'logo-fallback',textContent:'MS'}))" />
+            </div>
+            <div>
+              <h3 class="company-name">Microsoft</h3>
+              <p class="mono small muted">JUL 2026 — Present</p>
+            </div>
+          </div>
+          <ol class="roles">
+            <li>
+              <div class="role-head">
+                <h4> Student Ambassador </h4>
+                <span class="mono small muted"> JUL 2026 - Present </span>
+              </div>
+              <ul class="impact">
+                <li>Represented Microsoft as a Student Ambassador, promoting technology adoption and fostering inclusive learning communities.</li>
+                <li>Organized and facilitated workshops, hackathons, and peer‑learning sessions to empower students with practical cloud and AI skills.</li>
+                <li>Collaborated with faculty and student groups to bridge academic learning with industry tools, increasing engagement and career readiness.</li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+
+        <!-- Single-role company -->
+        <li class="company">
+          <div class="company-head">
+            <div class="logo-wrap">
               <img src="assets/images/hsai.png" alt="Company Two logo"
                    onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'logo-fallback',textContent:'C2'}))" />
             </div>
             <div>
               <h3 class="company-name">Handshake AI (Contract)</h3>
-              <p class="mono small muted">OCT 2025 — MAR 2026 · 6 mths</p>
+              <p class="mono small muted">OCT 2025 — MAR 2026</p>
             </div>
           </div>
           <ol class="roles">
@@ -198,6 +188,59 @@
         </li>
 
       </ol>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section">
+      <h2><span class="accent">#</span> certifications</h2>
+
+      <!-- Credly badges (live embeds) -->
+      <div class="badges">
+          <a href="https://www.credly.com/badges/6b41f5bf-a64b-4872-b083-b5d3a8c45372/public_url" target="_blank">
+            <img src="assets/c03.png" alt="AWS Certified Solutions Architect – Associate">
+          </a>
+          <a href="" target="_blank">
+            <img src="assets/az.png" alt="Azure Administrator Associate (AZ-104)">
+          </a>
+          <a href="https://www.credly.com/badges/4b68652f-cfbc-41ae-a709-bc209ec8e760/public_url" target="_blank">
+            <img src="assets/tfa.png" alt="Terraform Associate (004)">
+          </a>          
+          <a href="https://www.credly.com/badges/4d87a90f-c3a9-4955-990f-7696e3ee3593/public_url" target="_blank">
+            <img src="assets/msa2.png" alt="Microsoft Student Ambassador">
+          </a>
+
+        </div>
+
+      <ul class="certs">
+        <li>
+          <div>
+            <h3>AWS Solutions Architect - Associate (SAA-C03) </h3>
+            <p class="mono small">Amazon Web Services · 2026</p>
+          </div>
+          <a href="https://www.credly.com/badges/6b41f5bf-a64b-4872-b083-b5d3a8c45372/public_url" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
+        </li>
+        <li>
+          <div>
+            <h3>Microsoft Certified: Azure Administrator Associate (AZ-104) (In progress)</h3>
+            <p class="mono small">Microsoft · 2026</p>
+          </div>
+          <a href="#" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
+        </li>
+        <li>
+          <div>
+            <h3>HashiCorp Certified: Terraform Associate (004)</h3>
+            <p class="mono small">HasiCorp · 2026</p>
+          </div>
+          <a href="https://www.credly.com/badges/4b68652f-cfbc-41ae-a709-bc209ec8e760/public_url" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
+        </li>
+        <li>
+          <div>
+            <h3>Microsoft Student Ambassador</h3>
+            <p class="mono small">Microsoft · 2026</p>
+          </div>
+          <a href="https://www.credly.com/badges/4d87a90f-c3a9-4955-990f-7696e3ee3593/public_url" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
+        </li>
+      </ul>
     </section>
 
     <!-- PROJECTS -->
@@ -253,46 +296,44 @@
       </div>
     </section>
 
-    <!-- CERTIFICATIONS -->
-    <section id="certs" class="section">
-      <h2><span class="accent">#</span> certifications</h2>
-
-      <!-- Credly badges (live embeds) -->
-      <div class="badges">
-          <a href="https://www.credly.com/badges/6b41f5bf-a64b-4872-b083-b5d3a8c45372/public_url" target="_blank">
-            <img src="assets/c03.png" alt="AWS Certified Solutions Architect – Associate">
-          </a>
-          <a href="" target="_blank">
-            <img src="assets/az.png" alt="Azure Administrator Associate (AZ-104)">
-          </a>
-          <a href="https://www.credly.com/badges/4b68652f-cfbc-41ae-a709-bc209ec8e760/public_url" target="_blank">
-            <img src="assets/tfa.png" alt="Terraform Associate (004)">
-          </a>
+    <!-- TECH STACK -->
+    <section id="stack" class="section">
+      <h2><span class="accent">#</span> tech stack</h2>
+      <div class="stack-groups">
+        <div class="stack-group">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>Python</li><li>TypeScript</li><li>JavaScript</li>
+            <li>Powershell</li><li>SQL</li><li>Bash</li>
+          </ul>
         </div>
-
-      <ul class="certs">
-        <li>
-          <div>
-            <h3>AWS Solutions Architect - Associate (SAA-C03) </h3>
-            <p class="mono small">Amazon Web Services · 2026</p>
-          </div>
-          <a href="https://www.credly.com/badges/6b41f5bf-a64b-4872-b083-b5d3a8c45372/public_url" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
-        </li>
-        <li>
-          <div>
-            <h3>Microsoft Certified: Azure Administrator Associate (AZ-104) (In progress)</h3>
-            <p class="mono small">Microsoft · 2026</p>
-          </div>
-          <a href="#" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
-        </li>
-        <li>
-          <div>
-            <h3>HashiCorp Certified: Terraform Associate (004)</h3>
-            <p class="mono small">HasiCorp · 2026</p>
-          </div>
-          <a href="https://www.credly.com/badges/4b68652f-cfbc-41ae-a709-bc209ec8e760/public_url" target="_blank" rel="noopener" class="btn ghost small">verify ↗</a>
-        </li>
-      </ul>
+        <div class="stack-group">
+          <h3>Frameworks</h3>
+          <ul class="chips">
+            <li>Flask</li><li>Angular</li><li>Node.js</li>
+            <li>FastAPI</li><li>Django</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Cloud / Infra</h3>
+          <ul class="chips">
+              <li>AWS</li>
+              <li>Azure</li><li>Google Cloud</li>
+              <li>Docker</li><li>Kubernetes</li>
+              <li>Terraform</li><li>GitHub Actions</li>
+              <li>Linux (Debian, RHEL)</li>
+              <li>Windows Server (Active Directory)</li>
+          </ul>
+        </div>
+        <div class="stack-group">
+          <h3>Tools</h3>
+          <ul class="chips">
+                <li>Git</li><li>Copilot</li>
+                <li>GitHub Actions</li><li>Terraform</li>
+                <li>Linux</li><li>Visual Studio Code</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- CONTACT -->
